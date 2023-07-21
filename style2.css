@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photo-container
+{
+    margin: 100px auto 0;
+    position: relative;
+
+}
+.wthedit{
+  margin-left: 20px;
+}
+.withedit{
+float: right;
+margin-right: 20px;
+}
+.photo-container::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.421);
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
