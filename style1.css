@@ -14,7 +14,7 @@
 
 .credit-card {
     width: calc(50% - 20px);
-     height: fit-content;
+     height: calc(50% - 20px);
     border-radius: 10px;
     margin: 10px;
     float: left;
@@ -64,4 +64,19 @@
 }
 #valid{
     font-size: x-small;
+}
+.logo
+{
+    position: relative;
+}
+.logo img
+{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    right: 15px;
+    bottom:20px;
+
+    
+
 }
